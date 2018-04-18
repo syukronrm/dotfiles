@@ -2,6 +2,7 @@ set encoding=utf-8
 
 set tabstop=4
 set softtabstop=4
+set shiftwidth=4
 set expandtab
 
 set number
@@ -134,7 +135,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 
 " theme
-Plugin 'itchyny/lightline.vim'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'joshdick/onedark.vim'
 
 " shortcuts
@@ -148,7 +150,8 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'christoomey/vim-run-interactive'
 Plugin 'prabirshrestha/async.vim'
 Plugin 'prabirshrestha/vim-lsp'
-Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+" Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plugin 'roxma/nvim-completion-manager'
 
 " elixir
 Plugin 'elixir-lang/vim-elixir'
@@ -161,6 +164,12 @@ Plugin 'autozimu/LanguageClient-neovim', {
 
 " (Optional) Multi-entry selection UI.
 Plugin 'junegunn/fzf'
+
+" devops-ish
+Plugin 'ekalinin/Dockerfile.vim'
+
+" save session
+Plugin 'tpope/vim-obsession'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
