@@ -7,3 +7,6 @@ alias gd='git diff'
 alias ll='ls -l'
 alias la='ls -a'
 
+alias ..="cd .."
+alias ...="cd ../.."
+
