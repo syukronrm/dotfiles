@@ -49,7 +49,7 @@ inoremap jk <esc>
 nnoremap <leader>u :GundoToggle<CR>
 
 " toggle NERDTree
-nmap <leader>o :NERDTreeToggle<cr>
+nmap <leader>o :NERDTreeTabsToggle<cr>
 
 " change split window
 nnoremap <c-j> <c-w>j
@@ -132,18 +132,21 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
+" git
 Plugin 'tpope/vim-fugitive'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'airblade/vim-gitgutter'
 
 " theme
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'joshdick/onedark.vim'
 
-" shortcuts
+" navigation
 Plugin 'tpope/vim-unimpaired'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'jistr/vim-nerdtree-tabs'
 
 " Plugin 'slashmili/alchemist.vim'
 Plugin 'Valloric/YouCompleteMe'
