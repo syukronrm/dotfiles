@@ -2,7 +2,10 @@
 
 ### prerequisite
 - neovim
-
+- ag
+  ```bash
+  sudo apt-get install silversearcher-ag
+  ```
 ### how to use this
 
 clone to `~/dotfiles` directory
