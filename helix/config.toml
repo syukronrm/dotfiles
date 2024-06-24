@@ -1,0 +1,10 @@
+# Make a symlink since helix can't include another config file:
+# ln -s /home/syuk/dotfiles/helix/config.toml ~/.config/helix/
+
+theme = "zed_onedark"
+
+[editor]
+line-number = "relative"
+
+[editor.cursor-shape]
+insert = "bar"

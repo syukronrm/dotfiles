@@ -24,15 +24,6 @@ install all plugin
 nvim -E -c PluginInstall
 ```
 
-download elixir language server
-```bash
-mkdir -p ~/apps/elixir-ls
-cd ~/apps/elixir-ls
-wget https://github.com/JakeBecker/elixir-ls/releases/download/v0.2.18/elixir-ls.zip
-unzip elixir-ls.zip
-chmod +x *
-```
-
 install YouCompleteMe manually
 ```bash
 cd ~/.vim/bundle/YouCompleteMe
