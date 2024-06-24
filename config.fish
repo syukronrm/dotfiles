@@ -1,6 +1,8 @@
 # Source this file:
 # source "$HOME/dotfiles/config.fish"
 
+set fish_greeting
+
 fish_add_path "$HOME/.cargo/bin"
 fish_add_path /usr/local/go/bin
 fish_add_path "$HOME/go/bin"
