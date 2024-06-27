@@ -1,12 +1,17 @@
 # Make a symlink since helix can't include another config file:
-# ln -s /home/syuk/dotfiles/helix/config.toml ~/.config/helix/
+# ln -s $HOME/dotfiles/helix/config.toml ~/.config/helix/
 
 theme = "zed_onedark"
 
 [editor]
 line-number = "relative"
 popup-border = "popup"
-bufferline = "multiple"
+bufferline = "always"
+
+[editor.statusline]
+mode.insert = "INSERT"
+mode.normal = "NORMAL"
+mode.select = "SELECT"
 
 [editor.whitespace.render]
 tab = "all"
@@ -16,3 +21,7 @@ insert = "bar"
 
 [keys.insert]
 j = { k = "normal_mode" }
+
+[keys.normal]
+C-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
+C-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
