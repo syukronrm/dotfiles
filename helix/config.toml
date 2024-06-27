@@ -5,6 +5,14 @@ theme = "zed_onedark"
 
 [editor]
 line-number = "relative"
+popup-border = "popup"
+bufferline = "multiple"
+
+[editor.whitespace.render]
+tab = "all"
 
 [editor.cursor-shape]
 insert = "bar"
+
+[keys.insert]
+j = { k = "normal_mode" }
