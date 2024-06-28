@@ -6,7 +6,13 @@ theme = "zed_onedark"
 [editor]
 line-number = "relative"
 popup-border = "popup"
-bufferline = "always"
+bufferline = "multiple"
+true-color = true
+
+[editor.indent-guides]
+render = true
+character = "╎"
+skip-levels = 1
 
 [editor.statusline]
 mode.insert = "INSERT"

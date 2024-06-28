@@ -1,0 +1,7 @@
+# Import this file using command:
+# ln -s $HOME/dotfiles/alacritty/alacritty.toml $HOME/.config/alacritty/
+# mkdir -p $HOME/.config/alacritty
+# printf 'import = "[~/dotfiles/alacritty/alacritty.toml"\n' >> ~/.config/alacritty/alacritty.toml
+
+[font]
+normal = { family = "Fira Code", style = "Regular" }
