@@ -10,3 +10,12 @@ name = "go"
 language-servers = ["gopls"]
 auto-format = true
 formatter = { command = "goimports" }
+
+[language-server.phpactor]
+command = "phpactor"
+args = ["language-server"]
+
+[[language]]
+name = "php"
+language-servers = ["phpactor"]
+
